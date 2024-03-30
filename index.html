@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Responsive Web</title>
-    <script type="text/javascript">
-        function checkDevice() {
-            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    <title>My Website</title>
+</head>
+<body>
+    <script>
+        // Mendeteksi jika pengguna menggunakan perangkat mobile
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
 
-            if (/android/i.test(userAgent) || /iPhone/.test(userAgent)) {
-                window.location.href = "Mobile.html";
-            }
+        // Mendeteksi jika pengguna menggunakan tablet
+        function isTablet() {
+            return /iPad|Android/i.test(navigator.userAgent) && !isMobile();
+        }
 
-            // iOS detection from: http://stackoverflow.com/a/9039885/177710
-            if (/iPad/.test(userAgent) && !window.MSStream) {
-                window.location.href = "Tablet.html";
-            }
-
-            else {
-                window.location.href = "Desktop.html";
-            }
+        // Mengarahkan pengguna ke halaman yang sesuai
+        if (isMobile()) {
+            window.location.href = "Mobile.html";
+        } else if (isTablet()) {
+            window.location.href = "Tablet.html";
+        } else {
+            window.location.href = "Desktop.html";
         }
     </script>
-</head>
-<body onload="checkDevice()">
 </body>
 </html>
