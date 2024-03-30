@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Web</title>
+    <script type="text/javascript">
+        function checkDevice() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/android/i.test(userAgent)) {
+                window.location.href = "Mobile.html";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad/.test(userAgent) && !window.MSStream) {
+                window.location.href = "Tablet.html";
+            }
+
+            else {
+                window.location.href = "Desktop.html";
+            }
+        }
+    </script>
+</head>
+<body onload="checkDevice()">
+</body>
+</html>

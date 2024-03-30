@@ -1,0 +1,614 @@
+.porto.root {
+  background-color: #333647;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  width: 1440px;
+}
+.porto .rect1 {
+  background-color: #282a39;
+  bottom: 0px;
+  height: 437px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 587px;
+  width: 1440px;
+}
+.porto .image {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 552px;
+  height: 100px;
+  left: 366px;
+  position: absolute;
+  right: 799px;
+  top: 372px;
+  width: 275px;
+}
+.porto .image1 {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 445px;
+  height: 100px;
+  left: 366px;
+  position: absolute;
+  right: 799px;
+  top: 479px;
+  width: 275px;
+}
+.porto .rect2 {
+  background-color: #282a39;
+  bottom: 924px;
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 1440px;
+}
+.porto .title {
+  bottom: 953px;
+  color: #f87c58;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 618px;
+  position: absolute;
+  right: 728px;
+  top: 34px;
+  width: 94px;
+}
+.porto .title1 {
+  bottom: 966px;
+  color: #f87c58;
+  font: 800 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 128px;
+  position: absolute;
+  right: 1182px;
+  top: 21px;
+  width: 130px;
+}
+.porto .title2 {
+  bottom: 937px;
+  color: #f87c58;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 128px;
+  position: absolute;
+  right: 1205px;
+  top: 50px;
+  width: 107px;
+}
+.porto .title21 {
+  bottom: 953px;
+  color: white;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 737px;
+  position: absolute;
+  right: 610px;
+  top: 34px;
+  width: 93px;
+}
+.porto .title22 {
+  bottom: 953px;
+  color: white;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 858px;
+  position: absolute;
+  right: 506px;
+  top: 34px;
+  width: 76px;
+}
+.porto .title23 {
+  bottom: 953px;
+  color: white;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 966px;
+  position: absolute;
+  right: 354px;
+  top: 34px;
+  width: 120px;
+}
+.porto .title24 {
+  bottom: 953px;
+  color: white;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 1114px;
+  position: absolute;
+  right: 201px;
+  top: 34px;
+  width: 125px;
+}
+.porto .title25 {
+  bottom: 953px;
+  color: white;
+  font: 400 30px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 37px;
+  left: 1264px;
+  position: absolute;
+  right: 29px;
+  top: 34px;
+  width: 147px;
+}
+.porto .hero_title {
+  bottom: 857px;
+  color: white;
+  font: 600 55px/1.21 "Montserrat", Helvetica, Arial, serif;
+  height: 67px;
+  left: 72px;
+  position: absolute;
+  right: 799px;
+  top: 100px;
+  width: 569px;
+}
+.porto .hero_title1 {
+  bottom: 659px;
+  color: white;
+  font: 600 55px/1.21 "Montserrat", Helvetica, Arial, serif;
+  height: 67px;
+  left: 209px;
+  position: absolute;
+  right: 951px;
+  top: 298px;
+  width: 280px;
+}
+.porto .hero_title2 {
+  bottom: 181px;
+  color: white;
+  font: 600 55px/1.21 "Montserrat", Helvetica, Arial, serif;
+  height: 67px;
+  left: 134px;
+  position: absolute;
+  right: 1081px;
+  top: 776px;
+  width: 225px;
+}
+.porto .hero_title3 {
+  bottom: 359px;
+  color: white;
+  font: 600 55px/1.21 "Montserrat", Helvetica, Arial, serif;
+  height: 67px;
+  left: 134px;
+  position: absolute;
+  right: 1059px;
+  top: 598px;
+  width: 247px;
+}
+.porto .hero_title4 {
+  bottom: 365px;
+  color: white;
+  font: 600 55px/1.21 "Montserrat", Helvetica, Arial, serif;
+  height: 67px;
+  left: 634px;
+  position: absolute;
+  right: 572px;
+  top: 592px;
+  width: 234px;
+}
+.porto .title3 {
+  bottom: 814px;
+  color: white;
+  font: 400 31.7000007629px/1.23 "Montserrat", Helvetica, Arial, serif;
+  height: 39px;
+  left: 97px;
+  position: absolute;
+  right: 825px;
+  top: 171px;
+  width: 518px;
+}
+.porto .highlight {
+  bottom: 780px;
+  color: white;
+  display: flex;
+  font: 400 15px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 36px;
+  justify-content: center;
+  left: 72px;
+  position: absolute;
+  right: 799px;
+  text-align: center;
+  top: 208px;
+  width: 569px;
+}
+.porto .highlight1 {
+  bottom: 141px;
+  color: white;
+  font: 400 15px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 36px;
+  left: 73px;
+  position: absolute;
+  right: 973px;
+  top: 847px;
+  width: 394px;
+}
+.porto .medium_title {
+  bottom: 268px;
+  color: #f87c58;
+  font: 400 25px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 30px;
+  left: 377px;
+  position: absolute;
+  right: 989px;
+  top: 726px;
+  width: 74px;
+}
+.porto .medium_title1 {
+  bottom: 322px;
+  color: #f87c58;
+  font: 400 25px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 30px;
+  left: 377px;
+  position: absolute;
+  right: 989px;
+  top: 672px;
+  width: 74px;
+}
+.porto .image11 {
+  bottom: 945px;
+  height: 58px;
+  left: 53px;
+  position: absolute;
+  right: 1331px;
+  top: 21px;
+  width: 56px;
+}
+.porto .rect3 {
+  background-color: #d9d9d9;
+  bottom: 853px;
+  height: 4px;
+  left: 72px;
+  position: absolute;
+  right: 799px;
+  top: 167px;
+  width: 569px;
+}
+.porto .rect31 {
+  background-color: #d9d9d9;
+  bottom: 659px;
+  height: 4px;
+  left: 72px;
+  position: absolute;
+  right: 799px;
+  top: 361px;
+  width: 569px;
+}
+.porto .image2 {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 550px;
+  height: 100px;
+  left: 68px;
+  position: absolute;
+  right: 1097px;
+  top: 374px;
+  width: 275px;
+}
+.porto .image3 {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 443px;
+  height: 100px;
+  left: 68px;
+  position: absolute;
+  right: 1097px;
+  top: 481px;
+  width: 275px;
+}
+.porto .rect4 {
+  background-color: #d9d9d9;
+  bottom: 181px;
+  height: 4px;
+  left: 68px;
+  position: absolute;
+  right: 1005px;
+  top: 839px;
+  width: 367px;
+}
+.porto .highlight2 {
+  bottom: 268px;
+  color: white;
+  font: 400 15px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 90px;
+  left: 561px;
+  position: absolute;
+  right: 485px;
+  top: 666px;
+  width: 394px;
+}
+.porto .rect41 {
+  background-color: #d9d9d9;
+  bottom: 362px;
+  height: 4px;
+  left: 556px;
+  position: absolute;
+  right: 517px;
+  top: 658px;
+  width: 367px;
+}
+.porto .rect42 {
+  background-color: #d9d9d9;
+  bottom: 362px;
+  height: 4px;
+  left: 73px;
+  position: absolute;
+  right: 1000px;
+  top: 658px;
+  width: 367px;
+}
+.porto .rect5 {
+  background-color: #f87c58;
+  bottom: 327px;
+  height: 3px;
+  left: 163px;
+  position: absolute;
+  right: 999px;
+  top: 694px;
+  width: 278px;
+}
+.porto .rect51 {
+  background-color: #f87c58;
+  bottom: 274px;
+  height: 3px;
+  left: 163px;
+  position: absolute;
+  right: 999px;
+  top: 747px;
+  width: 278px;
+}
+.porto .rect6 {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  bottom: 247px;
+  height: 108px;
+  left: 75px;
+  position: absolute;
+  right: 1284px;
+  top: 669px;
+  width: 81px;
+}
+.porto .image21 {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 248px;
+  height: 53px;
+  left: 79px;
+  position: absolute;
+  right: 1288px;
+  top: 723px;
+  width: 73px;
+}
+.porto .box {
+  background-color: #2c2c2c;
+  border-radius: 4px 4px 4px 4px;
+  bottom: 721px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.149);
+  display: flex;
+  flex-direction: column;
+  height: 46px;
+  left: 180px;
+  outline: 2px solid white;
+  outline-offset: -2px;
+  overflow: hidden;
+  position: absolute;
+  right: 1111px;
+  top: 257px;
+  width: 149px;
+}
+.porto .text {
+  bottom: 16px;
+  color: white;
+  font: 700 14px/1 "Lato", Helvetica, Arial, serif;
+  height: 14px;
+  left: 32px;
+  position: absolute;
+  right: 53px;
+  top: 16px;
+  width: 64px;
+}
+.porto .image31 {
+  bottom: 18px;
+  height: 10px;
+  left: 105px;
+  position: absolute;
+  right: 34px;
+  top: 18px;
+  width: 10px;
+}
+.porto .box1 {
+  background-color: #2c2c2c;
+  border-radius: 4px 4px 4px 4px;
+  bottom: 721px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.149);
+  display: flex;
+  flex-direction: column;
+  height: 46px;
+  left: 386px;
+  outline: 2px solid #f87c58;
+  outline-offset: -2px;
+  overflow: hidden;
+  position: absolute;
+  right: 897px;
+  top: 257px;
+  width: 157px;
+}
+.porto .text1 {
+  bottom: 16px;
+  color: #f87c58;
+  font: 700 14px/1 "Lato", Helvetica, Arial, serif;
+  height: 14px;
+  left: 32px;
+  position: absolute;
+  right: 74px;
+  top: 16px;
+  width: 51px;
+}
+.porto .image32 {
+  bottom: 18px;
+  height: 10px;
+  left: 113px;
+  position: absolute;
+  right: 34px;
+  top: 18px;
+  width: 10px;
+}
+.porto .rect7 {
+  background-color: #282a39;
+  border-radius: 15px 15px 15px 15px;
+  bottom: 445px;
+  height: 469px;
+  left: 737px;
+  position: absolute;
+  right: 14px;
+  top: 110px;
+  width: 689px;
+}
+.porto .image4 {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 645px;
+  height: 208px;
+  left: 852px;
+  position: absolute;
+  right: 146px;
+  top: 171px;
+  width: 442px;
+}
+.porto .big_title {
+  bottom: 871px;
+  color: white;
+  font: 600 35px/1.22 "Montserrat", Helvetica, Arial, serif;
+  height: 43px;
+  left: 988px;
+  position: absolute;
+  right: 275px;
+  top: 110px;
+  width: 177px;
+}
+.porto .highlight3 {
+  bottom: 513px;
+  color: white;
+  display: flex;
+  font: 400 15px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 72px;
+  justify-content: center;
+  left: 788px;
+  position: absolute;
+  right: 77px;
+  text-align: center;
+  top: 439px;
+  width: 575px;
+}
+.porto .highlight4 {
+  bottom: 456px;
+  color: white;
+  display: flex;
+  font: 400 15px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 54px;
+  justify-content: center;
+  left: 879px;
+  position: absolute;
+  right: 167px;
+  text-align: center;
+  top: 514px;
+  width: 394px;
+}
+.porto .image5 {
+  border-radius: 15px 15px 15px 15px;
+  bottom: 303px;
+  height: 49px;
+  left: 85px;
+  position: absolute;
+  right: 1296px;
+  top: 672px;
+  width: 59px;
+}
+.porto .rect8 {
+  background-color: #d9d9d9;
+  bottom: 867px;
+  height: 4px;
+  left: 761px;
+  position: absolute;
+  right: 30px;
+  top: 153px;
+  width: 649px;
+}
+.porto .rect9 {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  bottom: 112px;
+  height: 314px;
+  left: 1029px;
+  position: absolute;
+  right: 44px;
+  top: 598px;
+  width: 367px;
+}
+.porto .hero_title11 {
+  bottom: 362px;
+  color: #282a39;
+  font: 600 55px/1.21 "Montserrat", Helvetica, Arial, serif;
+  height: 67px;
+  left: 1082px;
+  position: absolute;
+  right: 79px;
+  top: 595px;
+  width: 279px;
+}
+.porto .rect10 {
+  background-color: #282a39;
+  bottom: 363px;
+  height: 4px;
+  left: 1029px;
+  position: absolute;
+  right: 44px;
+  top: 657px;
+  width: 367px;
+}
+.porto .highlight11 {
+  bottom: 128px;
+  color: black;
+  font: 700 15px/1.2 "Montserrat", Helvetica, Arial, serif;
+  height: 234px;
+  left: 1038px;
+  position: absolute;
+  right: 52px;
+  top: 662px;
+  width: 350px;
+}
+.porto .rect11 {
+  background-color: #333647;
+  bottom: 0px;
+  height: 89px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 935px;
+  width: 1440px;
+}
+.porto .image6 {
+  bottom: 99px;
+  height: 40px;
+  left: 141px;
+  position: absolute;
+  right: 1259px;
+  top: 885px;
+  width: 40px;
+}
+.porto .image61 {
+  bottom: 99px;
+  height: 40px;
+  left: 230px;
+  position: absolute;
+  right: 1170px;
+  top: 885px;
+  width: 40px;
+}
+.porto .image7 {
+  bottom: 101px;
+  height: 35px;
+  left: 319px;
+  position: absolute;
+  right: 1081px;
+  top: 888px;
+  width: 40px;
+}
