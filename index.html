@@ -6,7 +6,7 @@
         function checkDevice() {
             var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-            if (/android/i.test(userAgent)) {
+            if (/android/i.test(userAgent) || /iPhone/.test(userAgent)) {
                 window.location.href = "Mobile.html";
             }
 
